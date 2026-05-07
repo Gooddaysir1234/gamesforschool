@@ -1,0 +1,20 @@
+[
+  {
+    "id": "tic-tac-toe",
+    "name": "Tic-Tac-Toe",
+    "description": "Classic 3x3 X vs O game.",
+    "type": "builtin"
+  },
+  {
+    "id": "snake",
+    "name": "Snake",
+    "description": "Eat apples and grow the snake.",
+    "type": "builtin"
+  },
+  {
+    "id": "memory-match",
+    "name": "Memory Match",
+    "description": "Flip cards and find pairs.",
+    "type": "builtin"
+  }
+]

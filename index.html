@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Games Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="brand">School Games Hub</div>
+    <p>Clean, local, and unblocked games using JSON data.</p>
+  </header>
+
+  <main>
+    <section class="game-list-panel">
+      <h2>Choose a Game</h2>
+      <div id="game-list" class="game-list"></div>
+    </section>
+
+    <section class="game-screen">
+      <div id="game-header" class="game-header">Select a game to start</div>
+      <div id="game-area" class="game-area">
+        <div class="placeholder">No game loaded</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Works offline in the browser. No external network resources.</span>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
